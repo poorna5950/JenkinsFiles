@@ -15,7 +15,7 @@ def mavenHome= tool name: 'maven3.6.2'
 
 stage('CheckoutCode')
 {
-git branch: 'development', credentialsId: '45083ce0-8f91-4177-b9b9-570e0d26e939', url: 'https://github.com/MithunTechnologiesDevOps/maven-web-application.git'
+git branch: 'master', credentialsId: '43ba6dce-f553-4ee6-b8a2-5872bde2bdb4', url: 'https://github.com/poorna5950/maven-web-application.git'
 }
 
 stage('Build')
